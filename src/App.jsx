@@ -26,7 +26,7 @@ function App() {
       </form>
       <div>
         {users.map((user) => (
-          <p>{user.name}</p>
+          <p>{user.name} & { user.email}</p>
         ))}
       </div>
     </>
